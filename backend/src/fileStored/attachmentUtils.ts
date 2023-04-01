@@ -1,5 +1,5 @@
 import * as AWS from 'aws-sdk'
-import { TodoAccess } from './todosAcess'
+import { TodoAccess } from '../dataLayer/todosAcess'
 import { createLogger } from "../utils/logger";
 
 const logger = createLogger('attachment')
